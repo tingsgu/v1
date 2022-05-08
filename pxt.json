@@ -1,0 +1,33 @@
+{
+    "name": "学伴v1.0  ×30（语音播坐姿）",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Asr_V3": "github:yahboomtechnology/asr_v3#6d5377c51ee7143c144c7655beff6c0ccb2b1cef",
+        "Croco-Kit": "github:lzty634158/croco-kit#e0ac1fb21990ccc7bd2006b0f906d66865eb4a16",
+        "Speech": "github:yahboomtechnology/speech#2ad3cf29dfd604613a82e3044fc4b93966c3f5e4"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.61",
+        "tag": "v3.0.61",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9ff91acb8524c6a52fee90cf7194a4643c424363",
+        "target": "4.0.18",
+        "pxt": "6.0.35",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
